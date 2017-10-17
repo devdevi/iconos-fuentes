@@ -1,0 +1,43 @@
+.principal{
+	background-color: black;
+	overflow:hidden; 
+	background: black
+	border 1px solid;
+	color:white;
+	clear: both;
+	text-align: justify;
+
+}
+
+li{
+float: left;
+height: 40px;
+margin: 20px;
+
+}
+
+.img_1 {
+
+	float: right;
+	margin:2em;
+	border-radius: 50%;
+	width: 20%;
+	
+
+}
+.img_2 {
+	float: left;
+	border-radius: 50%;
+	width: 20%;
+	margin:3em;
+	
+}
+h1{
+	text-align: center;
+	font-size: 60px;
+}
+.icon{
+	color: purple;
+	font-size: 30px;
+	text-align: center;
+}
