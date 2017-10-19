@@ -1,17 +1,42 @@
+.first{
+	margin: 3em;
+	box-sizing: border-box;
+}
 .caja{
-
+	margin: .1em;
 	float:left;
+	border-radius: 1em;
 	width: 12em;
 	height: 12em;
-	background-color: #EAF2F8  ;
+	background-color: white  ;
 	border: .1em solid #2980B9  ;
 	color: #154360;
 	padding: 1em;
-	text-align: center
+	text-align: center;
+
+}
+
+.caja:hover{
+	background-color: #FDEDEC   ;
+	border: .1em solid #E74C3C      ;
+	color: #78281F  ;
+	box-shadow: 1px -6px 1px #E74C3C  ;
+	 -webkit-box-shadow: 5px 5px 0 #E74C3C ;
+   -moz-box-shadow: 5px 5px 0 #E74C3C ;
+	margin: .3em;
+}
+.caja:active{
+	background-color: #EAFAF1;
+	border: .1em solid #2ECC71  ;
+	color: #145A32   ;
+	box-shadow: 1px -6px 1px #2ECC71  ;
+	 -webkit-box-shadow: 5px 5px 0 #2ECC71  ;
+   -moz-box-shadow: 5px 5px 0 #2ECC71  ;
+	margin:.4em;
 }
 
 p{
-	font-size: 14px;
+	font-size: .6em;
 	font: sans-serif;
 }
 .iconos{
