@@ -1,43 +1,22 @@
-.principal{
-	background-color: black;
-	overflow:hidden; 
-	background: black
-	border 1px solid;
-	color:white;
-	clear: both;
-	text-align: justify;
+.caja{
 
+	float:left;
+	width: 12em;
+	height: 12em;
+	background-color: #EAF2F8  ;
+	border: .1em solid #2980B9  ;
+	color: #154360;
+	padding: 1em;
+	text-align: center
 }
 
-li{
-float: left;
-height: 40px;
-margin: 20px;
-
+p{
+	font-size: 14px;
+	font: sans-serif;
 }
-
-.img_1 {
-
-	float: right;
-	margin:2em;
-	border-radius: 50%;
-	width: 20%;
-	
-
+.iconos{
+	font-size: 20px;
 }
-.img_2 {
-	float: left;
-	border-radius: 50%;
-	width: 20%;
-	margin:3em;
-	
-}
-h1{
-	text-align: center;
-	font-size: 60px;
-}
-.icon{
-	color: purple;
-	font-size: 30px;
-	text-align: center;
+h4{
+	font-family: 'Berkshire Swash', cursive;
 }
